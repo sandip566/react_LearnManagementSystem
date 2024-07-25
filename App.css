@@ -1,0 +1,597 @@
+/* @import './theme/light-theme.css';
+@import './theme/dark-theme.css'; */
+
+/* App.css  */
+
+.title {
+  color: var(--text-color);
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.icon {
+  color: var(--icon-color);
+}
+
+.light-button {
+  font-size: 14px;
+  padding: 5px 2px;
+  border: 0px solid #C0C2DE;
+  border-radius: 20px;
+  width: 84px;
+  height: 30px;
+  font-weight: 500;
+  margin: 5px 10px 10px 0px;
+  background-color: #d5d6eb;
+  color: #a1a1a1;
+  cursor: pointer;
+  align-items: center;
+  height: 34px;
+}
+
+.light-theme {
+  --background-color: #F0F1FF;
+  --secondary-background-color: #E7E8FA;
+  --tertiary-background-color: #E1E2F7;
+  --text-color: #333;
+  --icon-color: #333;
+  --sidebar-bg-tooltip: black;
+  --sidebar-tooltip-color: white;
+  --thead-bg: #F0F1FF;
+  --graph-bg: #F0F1FF;
+}
+
+.search-icon {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #999;
+  font-size: 15px;
+}
+
+.dark-theme {
+  --background-color: #37364B;
+  --secondary-background-color: #303143;
+  --tertiary-background-color: #2f3044;
+  --text-color: #fff;
+  --icon-color: #fff;
+  --sidebar-bg-tooltip: black;
+  --sidebar-tooltip-color: white;
+  --thead-bg: 37364B;
+  --graph-bg: #37364B;
+  --card-shadow: #3d3c50;
+
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+* {
+  font-family: 'Baloo 2', sans-serif;
+}
+
+
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+
+.black-color {
+  color: var(--text-color);
+}
+
+.gray-color {
+  color: rgb(193, 193, 193);
+}
+
+.gray-dark-color {
+  color: #A3A3A6;
+}
+
+.orange-color {
+  color: #FE8002;
+}
+
+.color-grey {
+  color: #676161;
+}
+
+.color-grey-light {
+  color: #C0C2DE;
+}
+
+/* bg color  */
+
+.black-bgcolor {
+  background-color: black;
+}
+
+.gray-bgcolor {
+  background-color: gray;
+}
+
+.white-bgcolor {
+  background-color: white;
+}
+
+ /* padding   */
+.padding10 {
+  padding: 10px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.padding30 {
+  padding: 30px;
+}
+
+ /* margin  */
+
+.margin10 {
+  margin: 10px;
+}
+
+.margin20 {
+  margin: 20px;
+}
+
+.margin30 {
+  margin: 30px;
+}
+
+ /* margin left right  */
+.marginx50 {
+  margin: 50px 50px;
+}
+
+.marginx10 {
+  margin: 10px 10px;
+}
+
+.marginx30 {
+  margin: 30px 30px;
+}
+
+ /* margin left  */
+.margin-left10 {
+  margin-left: 10px;
+}
+
+ /* margin bottom none  */
+.marginBottom-none {
+  margin-bottom: 0;
+}
+
+ /* marging top bottom  */
+.marginy50 {
+  margin: 50px 50px;
+}
+
+.marginy10 {
+  margin: 10px 10px;
+}
+
+.marginy30 {
+  margin: 30px 30px;
+}
+
+.margin-top10 {
+  margin-top: 10px;
+}
+
+ /* margin left right  */
+.paddingx50 {
+  padding: 50px 50px;
+}
+
+.paddingx10 {
+  padding: 10px 12px;
+}
+
+.paddingx30 {
+  padding: 30px 30px;
+}
+
+ /* marging top bottom  */
+.paddingy50 {
+  padding: 50px 50px;
+}
+
+.paddingy10 {
+  padding: 10px 10px;
+}
+
+.paddingy30 {
+  padding: 30px 30px;
+}
+
+.font13 {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.font12 {
+  font-size: 12px;
+}
+
+.font14 {
+  font-size: 14px;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font25 {
+  font-size: 25px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+ /* font weight  */
+.fontw-200 {
+  font-weight: 200;
+}
+
+.fontw-400 {
+  font-weight: 400;
+}
+
+.fontw-500 {
+  font-weight: 500;
+}
+
+.fontw-600 {
+  font-weight: 600;
+}
+
+.fontw-800 {
+  font-weight: 800;
+}
+.fontw-900 {
+  font-weight: 900;
+}
+
+ /* border  */
+.border-0 {
+  border: 0;
+}
+
+.border1 {
+  border: 1px solid #C0C2DE;
+}
+
+.border-dashed {
+  border: 1px dashed #ccc;
+}
+
+.border-radius {
+  border-radius: 20px;
+}
+
+.radius0 {
+  border-radius: 0px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.btn_primary {
+  padding: 5px 2px;
+  border: 0px solid #C0C2DE;
+  border-radius: 20px;
+  width: 90px;
+  font-weight: 500;
+  margin: 5px 0px 10px 0px;
+  background-color: #C0C2DE;
+  cursor: pointer;
+  align-items: center;
+  height: 37px;
+}
+
+.btn_disable {
+  font-size: 14px;
+  padding: 5px 2px;
+  border: 0px solid #C0C2DE;
+  border-radius: 20px;
+  width: 95px;
+  height: 37px;
+  font-weight: 500;
+  margin: 5px 10px 10px 0px;
+  background-color: #ccc;
+  color: #201f1f;
+  align-items: center;
+}
+
+.btn_primary_outline {
+  padding: 5px 2px;
+  border: 1px solid #d0cbcb;
+  border-radius: 20px;
+  width: 95px;
+  color: #000;
+  font-weight: 500;
+  margin: 5px 10px 10px 0px;
+  background-color: #fff;
+  cursor: pointer;
+  align-items: center;
+
+}
+
+.inputs-rounded {
+  border: 1px solid #C0C2DE;
+  border-radius: 10px;
+  color: #000;
+  padding: 20px;
+  width: 100%;
+}
+
+.border_bottom {
+  border: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #C0C2DE;
+}
+
+ /* flex  */
+.display-flex {
+  display: flex;
+}
+
+.justify-start {
+  justify-content: start;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-item-center {
+  align-items: center;
+}
+
+.align-item-start {
+  align-items: start;
+}
+
+.align-item-end {
+  align-items: end;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.nav {
+  .li_style {
+    list-style-type: none;
+    padding: 8px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li,
+    h6 {
+      color: var(--on-background) !important;
+    }
+
+    &:hover li {
+      cursor: pointer;
+    }
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+
+  .padding_top {
+    padding-top: 10px;
+  }
+
+  .padding_left10 {
+    padding-left: 10px;
+  }
+
+  .padding_left5 {
+    padding-left: 5px;
+  }
+
+  .padding_right {
+    padding-right: 10px;
+  }
+
+  .padding_right10 {
+    padding-right: 10px;
+  }
+
+  .padding_right5 {
+    padding-right: 5px;
+  }
+
+  .margin_bottom10 {
+    margin-bottom: 10px;
+  }
+
+  .margin_right5 {
+    margin-right: 5px;
+  }
+
+  .margin_right10 {
+    margin-right: 10px;
+  }
+
+  .padding_bottom {
+    padding-bottom: 10px;
+  }
+
+  .padding {
+    padding: 7px 0px 7px 0px
+  }
+}
+
+.lineHeight10 {
+  line-height: 10px;
+}
+.lineHeight50{
+  line-height: 35px;
+}
+.baap-logo {
+  padding: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.close_icon {
+  margin-left: 12px;
+}
+
+
+.prfile_icon {
+  cursor: pointer;
+  background-color: var(--background);
+  padding: 2px;
+  width: 46px;
+  height: 46px;
+  border-radius: 50px;
+  margin-left: 14px;
+}
+
+/* ng select  */
+
+.ng-select .ng-arrow-wrapper .ng-arrow {
+  display: none !important;
+}
+
+.ng-select span.ng-arrow-wrapper:before {
+  content: "\f078";
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+}
+
+.ng-select .ng-select-container {
+  border-radius: 0px !important;
+  background-color: transparent;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 0px solid #dee2e6;
+  border-top: 0px solid #dee2e6;
+  background: var(--background);
+  color: var(--text-color);
+}
+
+.table thead td {
+  vertical-align: bottom;
+  border-bottom: 0px solid #dee2e6;
+}
+
+.table td span {
+  color: var(--on-background);
+}
+
+.form-control {
+  background: var(--background) !important;
+  color: var(--on--background) !important;
+}
+
+.border_bottom {
+  border: 0px;
+  padding-left: 0px;
+  border-radius: 0px;
+  border-bottom: 1px solid #C0C2DE;
+  background: var(--current-bg) !important;
+  color: var(--on--background) !important;
+
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: 0;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.ng-select.ng-select-single .ng-select-container {
+  height: 36px;
+  border: 1px;
+  font-size: 18px;
+  font-weight: 900;
+  color: black;
+
+}
+
+.ng-select.ng-select-opened>.ng-select-container {
+  background-color: transparent;
+}
+
+.ng-dropdown-panel {
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 0 transparent;
+  left: 0 !important;
+}
+
+.ng-dropdown-panel .scroll-host {
+  overflow: hidden;
+  overflow-y: auto;
+  position: relative;
+  display: block;
+}
+
+.ng-dropdown-panel.ng-select-bottom {
+  top: 100%;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-color: transparent;
+  margin-top: 0px;
+}
+
+.main-padding {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}

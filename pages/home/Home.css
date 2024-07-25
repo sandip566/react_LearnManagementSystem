@@ -1,0 +1,302 @@
+.main {
+    background-color: #f5f7ff;
+    height:97vh;
+    border-radius: 30px;
+    width: 30%;
+    margin-left: 40px;
+    position: fixed;
+    bottom:3px;
+}
+.emoji{
+    position: relative;
+    bottom: 5px;
+}
+.act {
+    font-size: 20px;
+}
+.date {
+    font-size: 14px;
+}
+.para {
+    font-size: 14px;
+    width: 260px;
+    opacity: 1;
+}
+.red_box {
+    background-color: #F29898;
+    width: 297px;
+    height: 104px;
+    border-radius: 25px;
+    margin-left: 9%;   
+    position: relative;
+    bottom: 10px;
+}
+
+.java {
+    font-size:65px;
+}
+
+.java1 {
+    font-size: 16px;
+}
+
+.java2 {
+    font-size: 12px;
+}
+
+.date2 {
+    width: 32px;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 700;
+    background: #FFFFFF;
+    border-radius: 9px;
+    opacity: 1;
+}
+
+.progress-bar-container {
+    width:169px;
+    height: 4px;
+    background-color: #FFD5D5;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    bottom: 12px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #fdfcfe;
+    border-radius: inherit;
+    transition: width 0.3s ease;
+}
+
+.resume {
+   font-size: 13px;
+   position: relative;
+   bottom: 20px;
+}
+
+.purple_box {
+    background-color: #D075FF;
+    width: 297px;
+    height: 104px;
+    border-radius: 25px;
+    margin-left: 9%;
+    position: relative;
+    bottom: 10px;
+
+}
+
+.progress-bar-container2 {
+    width: 169px;
+    height: 4px;
+    background-color: #E6C0FA;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    bottom: 12px;
+}
+
+.yellow_box {
+    background-color: #FBDB39;
+    width: 297px;
+    height: 104px;
+    border-radius: 25px;
+    margin-left: 9%;
+    position: relative;
+    bottom: 10px;
+}
+
+.progress-bar-container3 {
+    width:169px;
+    height: 4px;
+    background-color: #E6C0FA;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    bottom: 12px;
+}
+
+.main2 {
+    position: relative;
+    right: 40px;
+}
+
+.bel {
+    width: 39px;
+    height: 41px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #7C6CF1;
+    padding: 10px;
+    background: #F2F6FF 0% 0% no-repeat padding-box;
+    border-radius: 11px;
+    opacity: 1;
+}
+
+.buisness_man {
+    margin-top: 20px;
+    background-color: #0c0d0d;
+    padding: 8px;
+}
+
+.profile {
+    border-bottom: 2px solid #e9ebf2;
+    width: 100%;
+}
+
+.text {
+    padding-top: 20px;
+    padding-left: 14px;
+    font-size: 16px;
+}
+
+.student {
+    color: #707070;
+    font-size: 12px;
+}
+
+.assignment {
+    font-size: 20px;
+}
+.assignment2 {
+    font-size: 20px;
+}
+.para2 {
+    color: #707070;
+    font-size: 13px;
+}
+.para3 {
+    color: #707070;
+    font-size: 13px;
+}
+.page_icon {
+    width: 44px;
+    height: 46px;
+    background: #F29898;
+    border-radius: 11px;
+    opacity: 1;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+.heading {
+    position: relative;
+    right: 30px;
+    font-size: 16px;
+}
+.sub_heading {
+    position: relative;
+    right: 30px;
+    font-size: 12px;
+}
+.page_icon2 {
+    width: 44px;
+    height: 46px;
+    background: #98BEF2;
+    border-radius: 11px;
+    opacity: 1;
+    padding-left: 14px;
+    padding-top: 10px;
+}
+.page_icon3 {
+    width: 44px;
+    height: 46px;
+    background: #E4F298;
+    border-radius: 11px;
+    opacity: 1;
+    padding-left: 14px;
+    padding-top: 12px;
+}
+.box {
+    width: 470px;
+    height: 186px;
+    margin-top: 10px;
+    background: #F7F9FF;
+    border-radius: 17px;
+    opacity: 1;
+    position: relative;
+    bottom: 10px; 
+}
+@media screen and (min-width:1100px) and (max-width:1250px){
+    .main {
+        height:96vh;
+        width: 30%;
+        position: fixed;
+        top: 19px;
+    }
+    .box {
+        width: 420px;
+        height: 157px;
+    }
+    .resume {
+        font-size: 13px;
+        position: relative;
+        bottom: 20px;
+     }
+    .red_box {
+        position: relative; 
+        bottom: 23px;
+    }
+    .progress-bar {
+        height: 100%;
+        background-color: #fdfcfe;
+        border-radius: inherit;
+        transition: width 0.3s ease;
+    }
+    .purple_box {
+        position: relative; 
+        bottom: 25px;
+    }
+    .yellow_box{
+        position: relative; 
+        bottom: 27px;
+    }
+    .para {
+        position: relative;
+        bottom: 10px;
+    }
+    .box {
+        width: 470px;
+        height: 156px;
+        position:fixed;
+    }
+    .assignment {
+        position: relative;
+        bottom: 5px;
+    }
+    .assignment2 {
+        position: relative;
+        bottom: 19px;
+    }
+    .para2 {
+        position: relative;
+        bottom: 10px;
+    }
+    .para3 {
+        position: relative;
+        bottom: 26px;
+    }
+    .page_icon {
+        position: relative;
+        bottom: 19px;
+    }
+    .heading {
+        position: relative;
+        right: 30px;
+        bottom: 12px;
+    }
+    .sub_heading {
+        position: relative;
+        right: 30px;
+        bottom: 19px;
+    }
+    .page_icon2 {
+        position: relative;
+        bottom: 20px;
+    }
+    .page_icon3 {
+        position: relative;
+        bottom: 20px;
+    }
+}

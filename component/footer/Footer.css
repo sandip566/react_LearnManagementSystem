@@ -1,0 +1,13 @@
+.footer_text {
+    position: fixed;
+     bottom: 20px;
+     left: 190px;
+}
+
+.text-blue {
+    color: #0D47CB
+}
+
+.last-text {
+    color: #707070;
+}

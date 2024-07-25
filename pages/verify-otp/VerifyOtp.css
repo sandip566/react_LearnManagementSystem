@@ -1,0 +1,88 @@
+* {
+    text-align: left;
+}
+.title1 {
+    margin-left:0px;
+    margin-top: 140px;
+    color: #000000;
+    font: normal normal bold 58px/48px Oxygen;
+}
+.Text1 {
+    font: normal normal 300 38px/48px Oxygen;
+    color: #707070;
+}
+.text2 {
+    font: normal normal normal 15px/20px Oxygen;
+    opacity: 1;
+    color: #707070;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.inputField1 {
+    outline: none;
+    border: 1px solid #E0E0E0;
+    border-radius:5px;
+    height: 33px;
+    width: 265px;
+}
+.otpbutton1{    
+    margin-left: 5px;
+    background-color:#E0E0E0;
+    border-radius: 5px;
+    border: none;
+    height: 32px;
+    width: 5px ; 
+    position: relative;
+    top: 3px; 
+}
+button{
+    padding:7px 17px 10px 17px ;
+}
+.third5 {
+    color: #707070;
+    font: normal normal normal 13px/16px Oxygen;
+    padding-top: 13px;
+}
+.icon_right{
+    position: relative;
+    right:5px;
+    bottom: 1px;
+    color: #000000;
+}
+.loder{
+    position: relative;
+    right: 9px;
+}
+.foot-text {
+    bottom: 5% !important;
+}
+@media (max-width: 426px) {
+    .title1 {
+        margin-top: 60px;
+        font-size: 32px;
+    }
+    .Text1 {
+        font-size: 28px;
+        padding-top: 5px;
+        line-height: 32px;
+    }
+}
+@media screen and (min-width:426px) and (max-width:1500px) {
+    .all-contain{
+        margin-left:   180px; 
+    }
+}
+.showHideIcon {
+    position: absolute;
+    left: 38%;
+    transform: translateX(-50%);
+    top: 7px; 
+    cursor: pointer;
+    color: black;
+  }
+  
+  
